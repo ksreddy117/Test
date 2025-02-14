@@ -13,4 +13,10 @@ pipeline {
        }
      }
   }
+
+  stage('Deploying') {
+    steps {
+      echo "Executing Deployment phase
+    }
+  }
 }
